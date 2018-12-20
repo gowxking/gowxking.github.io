@@ -1,0 +1,130 @@
+html{
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'HandLee', cursive;
+	font-size: 13pt;
+	background-color: #efefef;
+	padding: 10px;
+	margin: 0;
+}
+h1{
+	font-size: 15pt;
+	color: #20bcd5;
+	text-align: center;
+	padding: 18px;
+	margin: 0;
+}
+h1 span {
+	border: 4px dashed #20bcd5;
+	padding: 10px;
+}
+p{
+	margin: o;
+	padding: 0;
+}
+#header {
+	background-image: url("https://xakep.ru/wp-content/uploads/2015/09/crypt.jpg");
+	background-size: cover;
+}
+#header img {
+	width: 80px;
+	height: 80px;
+	margin: auto;
+	display: block;
+}
+#header p {
+	font-size: 45pt;
+	color: #20B2AA;
+	padding-top:  5px;
+	margin: 0;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+ 
+
+}
+.quote {
+	font-size: 12pt;
+	text-align: right;
+	margin-top: 10px;
+}
+.section{
+	background-color: #fff;
+	padding: 15px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+form{
+	text-align: center;
+	margin-top: 0;
+}
+textarea {
+	height: 100px;
+}
+
+input, textarea {
+	margin-bottom: 10px;
+	font-size: 11pt;
+	padding: 15px 10px 10px;
+	border: 1px solid #cecece;
+	background-color: #efefef;
+	color: #787575;
+	border-radius: 5px;
+	width: 70%;
+	outline: none;
+}
+.submit{
+	background-color: #3fb6b2;
+	padding: 12 px 45px;
+	border-radius: 5px;
+	cursor: pointer;;
+	color:#fff;
+	border: none;
+	outline:none;
+	margin: 0;
+	font-weight: bold;
+}
+.img-planet{
+border: 3px solid	white;
+border-radius: 40%;
+}
+progress {
+	width: 70%;
+	height: 20px;
+	color: #3fb6b2;
+	background-color: #efefef;
+}
+progress::-webkit-progress-bar{
+	background: #efefef;
+}
+progress::-webkit-progress-value{
+	background: #3fb6b2;
+}
+progress::-webkit-moz-progress-bar{
+	color: #3fb6b2;;
+	background: #efefef	;
+}
+.copyright {
+	font-size: 9pt;
+	text-align: right;
+	padding-bottom: 10px;
+	color:grey;
+}
+#contacts{
+	text-align: center;
+}
+#contacts img {
+	height: 50px;
+	width: 50px;
+	margin-top: 15px;
+}
+#contacts a {
+	text-decoration: none;
+}
+#contacts img:hover {
+	opacity: 0.8;
+}
