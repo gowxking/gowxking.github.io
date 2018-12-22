@@ -3,18 +3,41 @@
 <head>
 	<title>Stepan Mashtakov</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<script type="text/javascript" src="/jquery-3.3.1.min.js"></script>
+	<script src="jquery-3.3.1.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('#order-call').click(function() {
+				$('#popup-container').css('display' , 'flex')
+			})
+			$('#popup-container').click(function (e) {
+				if(this === e.target) {
+				$('#popup-container').css('display' , 'none')
+				}
+			})
+		})
+	</script>
 </head>
 <body>
+	<div id="popup-container">
+		<div id="popup">
+		<h1>Форма заявки</h1>
+		<form>
+			<input type="text" name="Name" placeholder=" Имя" required>
+			<input type="tel" name="Phone" placeholder=" Телефон" required>
+			<input type="submit" value="Заказать проект" class="submit" /><input id="Checkbox1" type="checkbox" name="checkbox" required="true">
+			<label for="Checkbox1">Я согласен с условиями обработки персональных данных</label>
+		</form>
+		</div>
+	</div>
 
 
 <div id="conteiner-1">
 	<div id="block-1">
 		<div id="topline">
 			<div id="menu-links" class="left">
-			<a href="#">Услуги</a>
-			<a href="#">Портфолио</a>
-			<a href="#">Стоимость</a>
+			<a href="#what-i-do">Услуги</a>
+			<a href="#portfolio">Портфолио</a>
+			<a href="#price-container">Стоимость</a>
 			</div>
 			<div class="right" id="phone-block">
 				<div id="phone">+7 928 336 09 21</div>
@@ -33,23 +56,36 @@
 	</div>	
 	<button id="watch-more">Узнать больше</button>	
 </div>
-
 <div id="what-i-do">Что я делаю</div>
 <div  class="skills">
 	<ul>
-		<div class="skills"><img src="images/tools-and-utensils.png" alt="tools"><br>
+		<div class="skills"><img src="images/tools-and-utensils.png" alt="tools" style="margin-bottom: 10px"><br>
 		Верстка лендинг страниц и сайтов любой сложности</div>
-		<div class="skills"><img src="images/responsive.png" alt="responsive"><br>
+		<div class="skills"><img src="images/responsive.png" alt="responsive" style="margin-bottom: 10px"><br>
 		Адаптивная верстка под все браузеры и устройства</div>
-		<div class="skills"><img src="images/programming.png" alt="programming"><br>
+		<div class="skills"><img src="images/programming.png" alt="programming" style="margin-bottom: 10px"><br>
 		Frontend-разработка и программирование</div>
-		<div class="skills"><img src="images/coding.png" alt="coding"><br>
+		<div class="skills"><img src="images/coding.png" alt="coding" style="margin-bottom: 10px"><br>
 		Исправление и доработка существуещей верстки</div>
 	</ul>
 </div>
 <div style="text-align: center;"><button id="watch-price">Узнать стоимость</button></div>
 <div id="examples-my">Примеры моих работ</div>
-
+<div id="portfolio">
+	<ul>
+		<div class="portfolio-images"><img src="images/portfolio_1.png" style="margin-bottom: 15px"><br>Сайт психолога Веры Антоновой</div>
+		<div class="portfolio-images"><img src="images/portfolio_2.png" style="margin-bottom: 15px"><br>Сайт магазина детской одежды</div>
+		<div class="portfolio-images"><img src="images/portfolio_3.png" style="margin-bottom: 15px"><br>Сайт магазина "Рыболов"</div>
+	</ul>
+</div>
+<div style="text-align: center;"><button id="order">Сделать заказ</button></div>
+<div id="price-container">
+	<div id="price-text"><h1><br>Адаптивная верстка под все устройства и браузеры  от 1000р всего за 4 часа.*</h1>
+	*Срок и стоимость могут отличаться от заявленных и рассчитываются индивидуально, в зависимости от сложности задач.</div>
+</div>
+<div>
+	
+</div>
 </body>
 </html>
 
