@@ -1,4 +1,11 @@
 /* Спецификация */
+/* ---------------------------- */
+
+
+
+
+/* ---------------------------- */
+
 body {
 	padding: 0;
 	margin: 0;
@@ -28,9 +35,17 @@ button {
 	margin-top: 25px;
 	border: none;
 	outline: none;
+	transition-property:box-shadow,text-shadow;;	
+	transition-duration:0.5s;
 }
 button:focus {
 	outline: none;
+}
+button:hover {
+transition-property:box-shadow, text-shadow;	
+transition-duration:0.5s;
+ box-shadow: 0 0 15px #ff4e2e;
+ text-shadow: 0 0 5px #fff;
 }
 
 form {
@@ -57,7 +72,6 @@ input, text {
 }
 input:focus {
 	background-color: #fff;
-	box-shadow: inset 0.1em 0.1em 0.1em 0.1em rgba(0,0,0,0.2);
 	outline: none;
 
 }
@@ -135,6 +149,13 @@ width: 100%;
 	margin-top: -30px;
 	font-size: 16px;
 	outline: none;
+}
+.order-call:hover {
+	transition-property:box-shadow, background-color;	
+	transition-duration:0.5s;
+ 	box-shadow: 0 0 15px #EC7190;
+ 	background-color: #fbe2e9;
+ 	text-shadow: 0 0 5px #fff;
 }
 .description {
 	font-size: 25px;
