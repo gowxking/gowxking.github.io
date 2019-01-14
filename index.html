@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Stepan Alekseev</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+	<!-- Форма -->
+	<div id="popup-container">
+		<div id="popup">
+		<h1>Форма заявки</h1>
+		<form>
+			<input type="text" name="Name" placeholder=" Имя" required>
+			<input id="phone" type="tel" name="Phone" placeholder="Телефон" required>
+			<input type="submit" value="Заказать проект" class="submit" />
+			<input id="Checkbox1" type="checkbox" name="checkbox" required="true">
+			<label for="Checkbox1">Я согласен с <a href="privacy_policy.pdf">условиями</a> обработки персональных данных</label>
+		</form>
+		</div>
+	</div>
+
+	<!-- Форма -->
+
+	<header id="header" class="header">
+		<div class="container">
+			<!-- Первая строка -->
+			<div class="row">
+				<div class="col-lg-3">
+					<nav>
+						<ul class="menu d-flex justify-content-center">
+							<li class="menu__item">
+								<a href="#n1">Услуги</a></li>
+							<li class="menu__item">
+								<a href="#n2">Портфолио</a></li>
+							<li class="menu__item" id="nth-child3">
+								<a href="#n3">Стоимость</a></li>
+						</ul>
+					</nav>
+				</div>
+
+				<div class="col-lg-3 ml-auto">
+					<div class="phone-number animated fadeInDown">+7 928 336-09-21</div>
+				</div>
+
+				<div class="col-lg-3">
+					<button class="order-call animated fadeInDown" id="zakazat-zvonok">
+						Заказать звонок
+					</button>
+					
+				</div>
+			</div>
+			</div>
+		</div>
+	</header>
+	<!-- Вторая строка -->
+	<section class="section">
+		<div class="container1">
+			<div class="row">
+				<div class="col-lg-7">
+					<div class="container-name" style="margin-top: 9vw; margin-left: 60px;">
+						<h1 class="name animated fadeInLeft">
+							Степан Алексеев
+						</h1>
+						<div class="description animated fadeInRight">
+							Frontend-разработчик и веб-верстальщик
+						</div>
+						<button id="learn_more">
+							Узнать больше
+						</button>
+					</div>
+				</div>
+				<div class="col-lg-5">
+					<div id="bg-photo" class="animated fadeIn"><img src="css/img/container-name.png">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>			
+
+	<div class="row">
+		<div class="col-lg-12 d-flex justify-content-center">
+			<div class="what-i-do" id="n1">
+				<h2>Что я делаю</h2>
+			</div>	
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="myskills d-flex justify-content-center">
+				<div class="col-lg-3"><img src="css/img/coding.png"><br><br>
+					Вёрстка лендинг–страниц
+					и сайтов любой сложности
+				</div>
+				<div class="col-lg-3"><img src="css/img/responsive.png"><br><br>
+					Адаптивная вёрстка под все
+					браузеры и устройства
+				</div>
+				<div class="col-lg-3"><img src="css/img/programming.png"><br><br>
+					Frontend–разработка
+					и программирование
+				</div>
+				<div class="col-lg-3"><img src="css/img/tools-and-utensils.png"><br><br>
+					Исправление и доработка
+					существующей вёрстки
+				</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-lg-12 d-flex justify-content-center">
+			<button style="margin-top: 90px; margin-bottom: 200px;" id="watch-price">Узнать стоимость</button>
+		</div>
+	</div>
+<div class="section2">
+	<div class="row">
+		<div class="col-lg-12 d-flex justify-content-center">
+			<div class="examples" id="n2">
+				<h2>Примеры моих работ</h2>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="examples-container d-flex justify-content-center">
+				<div class="col-lg-4"><img src="css/img/Portfolio_1.png"><br><br>
+					Сайт психолога Веры Антоновой
+				</div>
+				<div class="col-lg-4"><img src="css/img/Portfolio_2.png"><br><br>
+					Сайт магазина детской одежды
+				</div>
+				<div class="col-lg-4"><img src="css/img/Portfolio_3.png"><br><br>
+					Сайт магазина "Рыболов"
+				</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-12 d-flex justify-content-center">
+			<button style="margin-top: 90px; margin-bottom: 200px;" id="order-button">Заказать проект</button>
+		</div>
+	</div>
+</div>	
+<footer>
+	<div class="row">
+		<div class="col-lg-12 footer" id="n3">
+			<h1>Адаптивная вёрстка под все устройства
+и браузеры от 1000 рублей всего за 4 часа.*</h1>
+<h2>* Срок и стоимость могут отличаться от заявленных и рассчитываются  индивидуально,
+   в зависимости от сложности задач.</h2>
+		</div>
+	</div>
+
+	<div class="row foot" style="background: #FBFBFB;">
+		<div class="col-lg-4 footer-nav">
+			<ul>
+				<li><a href="#n1">Услуги</a></li>
+				<li><a href="#n2">Портфолио</a></li>
+				<li><a href="#n3">Стоимость</a></li>
+			</ul>
+		</div>
+		<div class="col-lg-4">
+			<ul>
+				<li id="li1"><img src="css/img/icons/call-answer.png" style="padding-right: 15px">+7 (499) 995-77-55</li>
+				<li id="li2"><img src="css/img/icons/envelope.png" style="padding-right: 15px" >gowxking@gmail.com</li>
+			</ul>
+	</div>
+		<div class="col-lg-4">
+			<div><button class="order-call">Заказать звонок</button>
+				<div>
+					<a href="#"><img src="css/img/icons/vk.png" class="icons-img"></a>
+					<a href="https://www.instagram.com/mashtapok"><img src="css/img/icons/instagram-social-network-logo-of-photo-camera.png" class="icons-img"></a>
+					<a href="#"><img src="css/img/icons/twitter-logo-silhouette.png" class="icons-img"></a>
+					<a href="#"><img src="css/img/icons/facebook-logo.png" class="icons-img"></a>
+				</div>
+			</div>	
+		</div>
+	</div>
+
+	<div class="row">
+			<div class="col-lg-12 bottom-footer"><h5>© Степан Алексеев, 2018 – 2020</h5>
+		</div>
+	</div>
+</footer>
+
+	
+</body>
+</html>

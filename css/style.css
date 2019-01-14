@@ -1,0 +1,310 @@
+/* Спецификация */
+body {
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+h1 {
+	font-weight: bold;
+	font-size:80px;
+}
+h2, h3 {
+	font-weight: bold;
+	font-size: 41px;
+}
+button {
+	width: 270px;
+	height: 60px;
+	background-color:#ff4e2e;
+	color: white;
+	cursor: pointer;
+	font-size: 20px;
+	margin-top: 25px;
+	border: none;
+	outline: none;
+}
+button:focus {
+	outline: none;
+}
+
+form {
+	font-size: 6pt;
+	display: block;
+	margin: 0 20px 0 20px;
+}
+input, text {
+	margin: 15px auto 5px auto;
+	font-size: 11pt;
+	border: 1px solid #cecece;
+	background-color: #efefef;
+	color: #787575;
+	border-radius: 5px;
+	width: 92%;
+	outline: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+input:focus {
+	background-color: #fff;
+	box-shadow: inset 0.1em 0.1em 0.1em 0.1em rgba(0,0,0,0.2);
+	outline: none;
+
+}
+.submit{
+	background-color: #ff4e2e;
+	border-radius: 3px;
+	cursor: pointer;
+	color:#fff;
+	border: none;
+	outline:none;
+	margin: 15px auto auto auto;
+	font-weight: bold;
+	font-size: 12pt;
+}
+#Checkbox1 {
+	width: auto;
+    display: inline;
+    margin-left: 18px;
+    margin-right: 4px;
+    margin-top: 15px;
+    border: 1px solid #ff4e2e;
+}
+
+.container {
+		background-color:#FBFBFB;
+		width: 100%;
+}
+/* Первая страница */
+ 
+.header {
+	background-color: #FBFBFB;
+	padding-top: 45px;
+	padding-bottom: 30px;
+	width: 100%;
+	margin:auto;
+}
+.section {
+	background-color: #FBFBFB;
+	width: 100%;
+}
+.menu {
+width: 100%;
+}
+.menu__item {
+	margin: 0 32px;
+}
+.menu__item a {
+	font-size: 16px;
+	color: black;
+
+}
+.menu__item a:active {
+	color: #EC7190;
+}
+.menu__item a:hover {
+	color: #EC7190;
+
+}
+
+.phone-number {
+	font-size: 25px;
+	color: black;
+	font-weight: bold;
+	margin-top: -8px;
+}
+.order-call {
+	color: #EC7190;
+	border: 2px solid #EC7190;
+	outline: none;
+	cursor: pointer;
+	background: transparent;
+	width: 207px;
+	height: 45px;
+	font-weight: bold;
+	margin-top: -30px;
+	font-size: 16px;
+	outline: none;
+}
+.description {
+	font-size: 25px;
+	color: #8993ad;
+}
+.container1 {
+	display: flex;
+	justify-content: center;
+	padding-top: 30px;
+	width: 100%;
+}
+.section {
+	background: #FBFBFB;
+	height: 640px;
+	background-position: 70vw;
+	
+}
+.what-i-do{
+	margin-top: 97px;
+	margin-bottom: 100px;
+}
+.myskills {
+	font-size: 18px;
+	color: #8993ad;
+	text-align: center;
+}
+	.section2 {
+		background: #FBFBFB;
+		padding-top: 100px;
+		margin-top: -70px;
+	}
+.examples {
+	margin-bottom: 4vw;
+}
+.examples-container {
+	font-size: 18px;
+	color: #8993ad;
+	text-align: center;
+	margin:auto;
+}
+.footer {
+	background: #ff4e2e;
+	height: 350px;
+	margin-top: -70px; 
+	padding-bottom: 80px;
+}
+.footer h1 {
+	display: flex;
+	justify-content: center;
+	margin:auto;
+	width: 80%;
+	color: white;
+	font-size: 35pt;
+	margin-top: 4vw;
+	margin-bottom: 25px;
+}
+.footer h2 {
+	width: 80%;
+	color: white;
+	font-size: 10pt;
+	margin: auto;
+}
+#li1 #li2 {
+	color:black;
+	margin-top: 15px;
+}
+.foot {
+	padding-top: 50px;
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-bottom: 100px;
+}
+.foot a {
+	color:#8993ad;
+	margin-bottom: 5px;
+}
+.icons-img {
+	margin-top: 15px;
+	margin-right: 20px;
+}
+.bottom-footer {
+	background: #31293c;
+	height: 80px;
+	display: flex;
+	justify-content: center;
+}
+.bottom-footer h5{
+	margin-top: 30px;
+	color: white;
+	font-size: 10pt;
+}
+
+#popup-container {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #0000004d;
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+	z-index: 50;
+}
+#popup {
+	width: 300px; 
+	height: 270px;
+	background-color: white;
+	border-radius: 5px;
+}
+	#popup h1{
+	color: black;
+	font-size: 16pt;
+	font-weight: bolder;
+	text-align: center;
+	margin-top: 15px;
+}
+
+
+/* --------------- Adoptation ----------- **/
+@media screen and (max-width: 1100px) {
+	.section {
+	background: #FBFBFB;
+	height: 650px;
+}
+#bg-photo {
+	display: none;
+}
+.phone-number {
+	margin:15px auto;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+}
+.order-call {
+	width: 180px;
+	margin:5px auto;
+	display: block;
+	justify-content: center;
+
+}
+.menu {
+	flex-direction: row;
+	justify-content: space-around;
+}
+.menu__item a {
+	font-size: 30px;
+}
+#nth-child3 {
+	margin-right: none;
+}
+button {
+	width: 200px;
+	height: 40px;
+	font-size: 14px;
+}
+.examples-container {
+flex-direction: column;
+text-align: center;
+}
+.footer {
+	height: 250px;
+}
+.footer h1 {
+	font-size: 4vw;
+}
+.foot {
+	flex-direction: column;
+}
+}
+
+
+}
