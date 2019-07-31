@@ -8,6 +8,9 @@
   	<link rel="stylesheet" href="style.css">
   	<link href="https://fonts.googleapis.com/css?family=Fira+Mono&display=swap" rel="stylesheet">
   	<link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
+  	<script src="https://kit.fontawesome.com/06e243bd2f.js"></script>
+  	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
 	<div class="logo">
@@ -16,10 +19,10 @@
 <header class="navigation">
 	<ul>
 		<li><a href="#">Главная</a></li>
-		<li><a href="#">Портфолио</a></li>
-		<li><a href="#">Цены</a></li>
-		<li><a href="#">Обо мне</a></li>
-		<li><a href="#">Контакты</a></li>
+		<li><a href="#galery">Портфолио</a></li>
+		<li><a href="#price">Цены</a></li>
+		<li><a href="#about">Обо мне</a></li>
+		<li><a href="#contacti">Контакты</a></li>
 	</ul>
 </header>	
 
@@ -57,8 +60,57 @@
 		<div id="price">
 			<h2>Цены</h2>
 		</div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium natus incidunt saepe dolor. Laboriosam temporibus, consequuntur corporis reprehenderit distinctio beatae eius, cupiditate ut dolore, voluptate quae eum aliquam! Eveniet dignissimos blanditiis corporis placeat, sequi quo cupiditate esse vero libero voluptatum qui inventore debitis similique praesentium error voluptates ab voluptas distinctio, atque temporibus. Possimus, quisquam beatae placeat accusamus suscipit quidem autem excepturi id, ducimus rerum. Harum, fugiat, vitae. Architecto fugit porro enim, quisquam eveniet totam impedit. Itaque sed enim, voluptatem delectus eius. Quae quaerat sapiente, amet officiis reprehenderit, nihil magni dolorem repellendus debitis velit deleniti exercitationem quos libero repellat quas perferendis saepe. Molestiae officia nisi excepturi qui sapiente assumenda, eum cupiditate iste! Sit sequi quis rerum rem eum perferendis adipisci consequuntur voluptatem velit porro neque ullam vitae placeat, sint aspernatur asperiores fugiat, ad, vero officiis distinctio, cumque amet ut recusandae optio! Omnis nisi doloremque nulla repudiandae repellat, labore nostrum amet ipsum iusto, fugit consequuntur magni voluptas aliquid illum, nihil nesciunt perspiciatis quidem, aut distinctio quasi mollitia. Blanditiis, minus. Porro ea doloribus, debitis maxime esse nam placeat temporibus cumque facilis eos laudantium quia repellat ipsa deserunt minus autem necessitatibus atque aut labore ex illum, unde pariatur nesciunt. Sunt sit rerum quos nihil!</p>
 	</div>
 </section>
+
+<section class="about-me">
+	<div class="container" id="about-me-contancts">
+		<div id="about">
+			<h2>Обо мне</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima explicabo exercitationem quis a consequatur adipisci consectetur repudiandae. Sit tempore officia iusto, molestias praesentium numquam fuga perspiciatis ut maxime porro perferendis dolores, rerum tenetur amet, aliquam sequi eius. Ipsam laborum, odio explicabo fugit illum laudantium tempora quas optio, architecto nulla numquam eius hic autem! Quasi eum reprehenderit tempore accusamus, dicta, harum!</p>
+		</div>
+		<div id="contacti">
+			<h2>Контакты</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda recusandae repellat consequuntur id, tempora officiis officia, autem debitis. Minima totam officia eius voluptatem possimus dignissimos sapiente, dicta quas ipsa asperiores saepe consectetur deserunt doloremque maxime necessitatibus nemo quibusdam. Animi, doloribus.</p>
+		</div>
+	</div>
+</section>
+
+
+<section>
+<div class="container order">
+	<button class="custom-btn btn-order"><span>Оставить заявку</span></button>
+</div>
+</section>
+
+<footer>
+	<div class="container">
+		<div class="footer-social">
+			<a href="https://vk.com/alexspyy"><i class="fab fa-vk"></i></a>
+		    <a href="https://www.instagram.com/alex_spy/"><i class="fab fa-instagram"></i></a>
+		</div>
+	</div>
+</footer>
+
+
+<a href="#" class="scrollup">Наверх</a>
+
+
+	<!-- Форма -->
+	<div id="popup-container">
+		<div id="popup">
+		<div id="close"></div>
+		<h1>Оставить заявку</h1>
+		<form id="form-popup" method="POST" action="">
+			<input class="input-popup" type="text" name="name-popup" placeholder=" Имя" required id="name-popup">
+			<input class="input-popup" id="phone-popup" type="tel" name="phone-popup" placeholder="Телефон" required>
+			<input name="submit-popup" class="submit-popup" type="submit" value="Заказать звонок" id="sendButton" />
+		</form>
+		</div>
+	</div>
+	<!-- Форма -->
+
 
 </div>
 </body>
