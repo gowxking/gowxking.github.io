@@ -1,4 +1,4 @@
-body {
+body, button {
 	font-family: 'Fira Mono', monospace;
 }
 h2 {
@@ -98,4 +98,246 @@ h2 {
 #price {
 	margin: 30px 0;
 	text-align: center;
+}
+#about {
+	    flex: 45%;
+		margin: 30px 0;
+	text-align: center;
+}
+#contacti {
+	    flex: 45%;
+		margin: 30px 0;
+	text-align: center;
+}
+#about-me-contancts {
+	display: flex;
+	justify-content: space-around;
+}
+.order {
+	display: flex;
+	justify-content: center;
+}
+
+/* -------------------- FOOTER ----------------------*/
+.fa-vk, .fa-instagram {
+	color: black;
+	border: 0;
+    font-size: 25px;
+    cursor: pointer;
+    padding:10px;
+    margin: 0 10px;
+    transition: 0.2s;
+}
+
+.footer-social {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.scrollup {
+width:40px;
+height:40px;
+opacity:0.5;
+position:fixed;
+bottom:50px;
+right:19px;
+display:none;
+text-indent:-9999px;
+background: url('images/icon_top.png') no-repeat;
+transition: 0.7s;
+}
+
+/* -------------------- FOOTER ----------------------*/
+
+
+
+
+/* ------------+++++-------- HOVER ----------++++++------------*/
+.fa-vk:hover {
+	color: #4c75a3;
+	transition: 0.2s;
+}
+.fa-instagram:hover {
+background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.scrollup:hover {
+opacity:0.9;
+transition: 0.7s;
+}
+
+/* ----------+++++---------- HOVER -----+++++-----------------*/
+
+
+/* -------------------------- BUTTONS ------------------------------*/
+.custom-btn {
+  padding: 10px 25px;
+  font-weight: 500;
+  background: transparent;
+  outline: none !important;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+
+/**** BTN order****/
+.btn-order {
+width: 210px;
+height: 45px;
+line-height: 44px;
+font-size: 18px;
+padding: 0;
+border: none;
+margin: 20px 0;
+}
+.btn-order span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-order:before,
+.btn-order:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+  background: #000;
+  transition: all 0.3s ease;
+}
+.btn-order:before {
+  height: 50%;
+  width: 2px;
+}
+.btn-order:after {
+  width: 20%;
+  height: 2px;
+}
+.btn-order:hover:before {
+  height: 100%;
+}
+.btn-order:hover:after {
+  width: 100%;
+}
+.btn-order span:before,
+.btn-order span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  background: #000;
+  transition: all 0.3s ease;
+}
+.btn-order span:before {
+  width: 2px;
+  height: 50%;
+}
+.btn-order span:after {
+  width: 20%;
+  height: 2px;
+}
+.btn-order span:hover:before {
+  height: 100%;
+}
+.btn-order span:hover:after {
+  width: 100%;
+}
+
+/* -------------------------- BUTTONS ------------------------------*/
+
+
+
+
+
+
+/* ------ POPUP ------*/
+#popup-container {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #00000099;
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+	z-index: 50;
+}
+#popup {
+	position: relative;
+	width: 300px; 
+	height: 240px;
+	background-color: white;
+	border-radius: 5px;
+}
+	#popup h1{
+		font-family: 'Open Sans', sans-serif;
+	color: black;
+	font-size: 16pt;
+	font-weight: bolder;
+	text-align: center;
+	margin-top: 15px;
+}
+
+#close {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    right: -16px;
+    top: -16px;
+    z-index: 110;
+    background-image: url(../img/close.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 32px 32px;
+    cursor: pointer;
+}
+
+
+#form-popup {
+	font-size: 6pt;
+	display: block;
+	margin: 0 20px 0 20px;
+}
+.input-popup{
+	margin: 15px auto 5px auto;
+	font-size: 11pt;
+	border: 1px solid #cecece;
+	background-color: #efefef;
+	color: #787575;
+	border-radius: 5px;
+	width: 92%;
+	outline: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.input-popup:focus {
+	background-color: #fff;
+	outline: none;
+
+}
+.submit-popup {
+    width: 92%;
+    background-color: #ff4e2e;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-size: 12pt;
+    display: flex;
+    justify-content: center;
 }
