@@ -41,6 +41,10 @@ button {
 button:hover {
     box-shadow: #757575 0px 0px 9px;
 }
+button:focus {
+    background-color: #353535;
+    box-shadow: #353535 0px 0px 9px;
+}
 
 input[type=text] {
     width: 100%;
