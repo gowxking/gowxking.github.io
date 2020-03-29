@@ -16,15 +16,15 @@ calculate.onclick = function Calc() {
     let ax= (0.5*(d+0.5*l)*Math.pow((k*(k+4*h*H)), 0.5))/(Math.pow((k+Math.pow(h+H,2)),2));
     let bx = (ax*Math.pow((k+Math.pow(h+H,2)) , 1/2))/(d+0.5*l);
 
-    console.log("l=" + l);
-    console.log("k=" + k);
-    console.log("angleRad=" + angleRad);
-    console.log("r1=" + r1);
-    console.log("r2=" + r2);
-    console.log("H=" + H);
-    console.log("x0=" + x0);
-    console.log("ax=" + ax);
-    console.log("bx=" + bx);
+    if (isNaN(ax)) {
+        alert('Введи данные -_-')
+    } 
+    else if (isNaN(bx)) {
+        alert('Введи данные -_-')
+    }
+    else if (isNaN(x0)) {
+        alert('Введи данные -_-')
+    }
 
     document.querySelector('.h0').setAttribute('value', Math.round(x0*100000)/100000 );
     document.querySelector('.ax').setAttribute('value', Math.round(ax*100000)/100000 );
