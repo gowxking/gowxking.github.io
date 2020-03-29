@@ -15,6 +15,9 @@ main {
 .variables {
     display: flex;
 }
+.logo {
+    cursor: pointer;
+}
 label {
     margin-bottom: 20px;
     display: flex;
