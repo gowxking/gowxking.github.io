@@ -66,3 +66,7 @@ document.querySelector('.variant5').onclick = function () {
     document.getElementById('h').setAttribute('value', 17);
     document.getElementById('d').setAttribute('value', 500);
 }
+
+document.querySelector('.logo').onclick = function() {
+    alert("Ага попався")
+}
