@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+<main>
+    <div class="buttons">
+        <button class="variant1 variant">Вариант 1</button>
+        <button class="variant2 variant">Вариант 2</button>
+        <button class="variant3 variant">Вариант 3</button>
+        <button class="variant4 variant">Вариант 4</button>
+        <button class="variant5 variant">Вариант 5</button>
+    </div>
+
+    <div class="div-input">
+        <input type="text" id="angle" class="variables" value="3.2">
+        <label for="text">θ(град)</label>
+
+        <input type="text" id="f" class="variables" value="334">
+        <label for="text">f(МГц)</label>
+
+        <input type="text" id="h" class="variables" value="15">
+        <label for="text">h(м)</label>
+
+        <input type="text" id="d" class="variables" value="1000">
+        <label for="text">d(м)</label>
+
+        <button id="calculate">Посчитать</button>
+    </div>
+    <div class="answers">
+        <p>Ответы</p>
+        <input type="text" class="variables h0"> <label for="h0">h₀</label>
+        <input type="text" class="variables ax"> <label for="ax"><sub>a</sub>x</label>
+        <input type="text" class="variables bx"> <label for="bx"><sub>b</sub>x</label>
+    </div>
+</main>
+
+</body>
+<script src="js/script.js"></script>
+</html>
