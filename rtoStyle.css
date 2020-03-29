@@ -40,6 +40,7 @@ button {
     font-size: 12px;
     outline: none;
     transition: 0.3s;
+    cursor: pointer;
 }
 button:hover {
     box-shadow: #757575 0px 0px 9px;
