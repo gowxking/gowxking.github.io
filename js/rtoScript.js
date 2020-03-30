@@ -44,9 +44,9 @@ calculate.onclick = function Calc() {
         alert('Введи данные -_-')
     }
 
-    document.querySelector('.h0').setAttribute('value', Math.round(x0*100000)/100000 );
-    document.querySelector('.ax').setAttribute('value', Math.round(ax*100000)/100000 );
-    document.querySelector('.bx').setAttribute('value', Math.round(bx*100000)/100000 );
+    document.querySelector('.h0').setAttribute('value', Math.round(x0*1000)/1000 );
+    document.querySelector('.ax').setAttribute('value', Math.round(ax*1000)/1000 );
+    document.querySelector('.bx').setAttribute('value', Math.round(bx*1000)/1000 );
 }
 
 
