@@ -21,7 +21,7 @@ calculate.onclick = function Calc() {
     let x0 = ( 0.66*ax + (k*(H-h))/(2*h*square) )/0.34;
 
 
-    console.log("l=" + l);
+    /* console.log("l=" + l);
     console.log("k=" + k);
     console.log("angleRad=" + angleRad);
     console.log("r1=" + r1);
@@ -32,7 +32,7 @@ calculate.onclick = function Calc() {
     console.log("bx=" + bx);
 
     console.log("sin=" + Math.sin(angleRad));
-    console.log("square=" + square);
+    console.log("square=" + square); */
 
     if (isNaN(ax)) {
         alert('Введи данные -_-')
@@ -51,40 +51,40 @@ calculate.onclick = function Calc() {
 
 
 document.querySelector('.variant1').onclick = function () {
-    document.getElementById('angle').setAttribute('value', 2.5);
-    document.getElementById('f').setAttribute('value', 329);
-    document.getElementById('h').setAttribute('value', 4);
-    document.getElementById('d').setAttribute('value', 7000);
+    document.getElementById('angle').value = 2.5;
+    document.getElementById('f').value = 329;
+    document.getElementById('h').value = 4;
+    document.getElementById('d').value = 7000;
 }
 
 document.querySelector('.variant2').onclick = function () {
-    document.getElementById('angle').setAttribute('value', 2.7);
-    document.getElementById('f').setAttribute('value', 330);
-    document.getElementById('h').setAttribute('value', 8);
-    document.getElementById('d').setAttribute('value', 4000);
+    document.getElementById('angle').value = 2.7;
+    document.getElementById('f').value = 330;
+    document.getElementById('h').value = 8;
+    document.getElementById('d').value = 4000;
 }
 
 document.querySelector('.variant3').onclick = function () {
-    document.getElementById('angle').setAttribute('value', 3);
-    document.getElementById('f').setAttribute('value', 332);
-    document.getElementById('h').setAttribute('value', 12);
-    document.getElementById('d').setAttribute('value', 2000);
+    document.getElementById('angle').value = 3;
+    document.getElementById('f').value = 332;
+    document.getElementById('h').value = 12;
+    document.getElementById('d').value = 2000;
 }
 
 document.querySelector('.variant4').onclick = function () {
-    document.getElementById('angle').setAttribute('value', 3.2);
-    document.getElementById('f').setAttribute('value', 334);
-    document.getElementById('h').setAttribute('value', 15);
-    document.getElementById('d').setAttribute('value', 1000);
+    document.getElementById('angle').value = 3.2;
+    document.getElementById('f').value = 334;
+    document.getElementById('h').value = 15;
+    document.getElementById('d').value = 1000;
 }
 
 document.querySelector('.variant5').onclick = function () {
-    document.getElementById('angle').setAttribute('value', 3.5);
-    document.getElementById('f').setAttribute('value', 336);
-    document.getElementById('h').setAttribute('value', 17);
-    document.getElementById('d').setAttribute('value', 500);
+    document.getElementById('angle').value = 3.5;
+    document.getElementById('f').value = 336;
+    document.getElementById('h').value = 17;
+    document.getElementById('d').value = 500;
 }
 
 document.querySelector('.logo').onclick = function() {
-    alert("ГУГА закрыт на карантин")
+    alert("ГУГА закрыт на карантин");
 }
