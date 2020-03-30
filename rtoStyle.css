@@ -76,7 +76,7 @@ input[type=text] {
 }
 .by {
     text-decoration: none;
-    color: #c9c5de;
+    color: #8e87b0;
     font-family: monospace;
     font-size: 9px;
     transition: 0.5s;
@@ -86,7 +86,7 @@ input[type=text] {
 }
 footer {
     margin-top: 35px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .foot {
     display: flex;
