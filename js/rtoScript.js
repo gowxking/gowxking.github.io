@@ -86,5 +86,5 @@ document.querySelector('.variant5').onclick = function () {
 }
 
 document.querySelector('.logo').onclick = function() {
-    alert("Ага попався")
+    alert("ГУГА закрыт на карантин")
 }
