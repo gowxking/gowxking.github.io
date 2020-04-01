@@ -21,7 +21,7 @@ calculate.onclick = function Calc() {
     let x0 = ( 0.66*ax + (k*(H-h))/(2*h*square) )/0.34;
 
 
-    /* console.log("l=" + l);
+    console.log("l=" + l);
     console.log("k=" + k);
     console.log("angleRad=" + angleRad);
     console.log("r1=" + r1);
@@ -32,7 +32,7 @@ calculate.onclick = function Calc() {
     console.log("bx=" + bx);
 
     console.log("sin=" + Math.sin(angleRad));
-    console.log("square=" + square); */
+    console.log("square=" + square);
 
     if (isNaN(ax)) {
         alert('Введи данные -_-')
@@ -88,3 +88,4 @@ document.querySelector('.variant5').onclick = function () {
 document.querySelector('.logo').onclick = function() {
     alert("ГУГА закрыт на карантин");
 }
+
